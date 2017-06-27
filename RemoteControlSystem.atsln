@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Atmel Studio Solution File, Format Version 11.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Client", "RemoteControlSystem\Client\Client.cppproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
 Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "ArduinoCore", "RemoteControlSystem\ArduinoCore\ArduinoCore.cppproj", "{C59A228F-0389-4780-91B4-12B9991A71C4}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "Server", "RemoteControlSystem\Server\Server.cppproj", "{F598EE84-3B5C-46ED-B838-B478583BC1B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +15,18 @@ Global
 		Release|AVR = Release|AVR
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|AVR.Build.0 = Debug|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.ActiveCfg = Release|AVR
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|AVR.Build.0 = Release|AVR
 		{C59A228F-0389-4780-91B4-12B9991A71C4}.Debug|AVR.ActiveCfg = Debug|AVR
 		{C59A228F-0389-4780-91B4-12B9991A71C4}.Debug|AVR.Build.0 = Debug|AVR
 		{C59A228F-0389-4780-91B4-12B9991A71C4}.Release|AVR.ActiveCfg = Release|AVR
 		{C59A228F-0389-4780-91B4-12B9991A71C4}.Release|AVR.Build.0 = Release|AVR
+		{F598EE84-3B5C-46ED-B838-B478583BC1B5}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F598EE84-3B5C-46ED-B838-B478583BC1B5}.Debug|AVR.Build.0 = Debug|AVR
+		{F598EE84-3B5C-46ED-B838-B478583BC1B5}.Release|AVR.ActiveCfg = Release|AVR
+		{F598EE84-3B5C-46ED-B838-B478583BC1B5}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
