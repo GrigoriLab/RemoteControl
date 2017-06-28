@@ -34,3 +34,5 @@
 # IDE related files
 .vs
 RemoteControlSystem/ArduinoCore/Debug
+RemoteControlSystem/Client/Debug
+RemoteControlSystem/Server/Debug
