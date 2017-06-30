@@ -9,7 +9,10 @@
 #ifndef SETUP_H_
 #define SETUP_H_
 
+#include "RH_RF95.h"
+extern RH_RF95 rf95;
 
+#define HARDWARE_SERIAL_BAUDRATE 9600
 
 
 
