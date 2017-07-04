@@ -9,5 +9,11 @@
  #include <Arduino.h>
 
  void setup() {
-
+	Serial.begin(HARDWARE_SERIAL_BAUDRATE);
+	while (!Serial) {
+		;
+	}
+	if (!rf95.init())
+		Serial.println("LoRa init failed");
+	Serial.println("Client is started!");
  }

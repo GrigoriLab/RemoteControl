@@ -186,6 +186,8 @@
       <Value>%24(ProjectDir)\..\ArduinoCore\include\core</Value>
       <Value>%24(ProjectDir)\..\ArduinoCore\include\variants\standard</Value>
       <Value>../inc</Value>
+      <Value>../../ArduinoCore/include/libraries/radiohead</Value>
+      <Value>../../ArduinoCore/include/libraries/SPI</Value>
     </ListValues>
   </avrgcc.compiler.directories.IncludePaths>
   <avrgcc.compiler.optimization.level>Optimize for size (-Os)</avrgcc.compiler.optimization.level>
@@ -216,6 +218,8 @@
       <Value>%24(ProjectDir)\..\ArduinoCore\include\core</Value>
       <Value>%24(ProjectDir)\..\ArduinoCore\include\variants\standard</Value>
       <Value>../inc</Value>
+      <Value>../../ArduinoCore/include/libraries/radiohead</Value>
+      <Value>../../ArduinoCore/include/libraries/SPI</Value>
     </ListValues>
   </avrgcccpp.compiler.directories.IncludePaths>
   <avrgcccpp.compiler.optimization.level>Optimize for size (-Os)</avrgcccpp.compiler.optimization.level>

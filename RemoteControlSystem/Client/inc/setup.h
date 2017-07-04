@@ -10,7 +10,11 @@
 #define SETUP_H_
 
 
+#include "RH_RF95.h"
+extern RH_RF95 rf95;
+#define DEVICE_ID "0x22"
 
+#define HARDWARE_SERIAL_BAUDRATE 9600
 
 
 #endif /* SETUP_H_ */
